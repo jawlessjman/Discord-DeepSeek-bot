@@ -7,7 +7,7 @@ from discord.ext import commands
 from langchain_ollama import OllamaLLM
 from langchain_core.prompts import ChatPromptTemplate
 
-model = OllamaLLM(model="deepseek-r1:14b") #requires you to have the ollama model installed
+model = OllamaLLM(model="deepseek-r1:1.5b") #requires you to have the ollama model installed
 
 load_dotenv()
 
